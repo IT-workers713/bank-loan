@@ -1,0 +1,98 @@
+@media (max-width: 992px) {
+  .mobileMenu {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    -webkit-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+  }
+  .mobileMenu.open {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .mobileMenu .navbar-nav {
+    overflow-y: auto;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .overlay.open {
+    display: block;
+    z-index: 1029;
+  }
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg{
+  background-color: rgb(117, 112, 107);
+}
+
+.fstyle{
+  font-family: 'Roboto Slab', serif;
+}
+
+.cfstyle{
+  font-family: 'Roboto Slab', serif;
+}
+
+.loan{
+  background-image: url("../images/loan.jpg");
+  background-color: rgb(232, 197, 236);
+  background-size: cover;
+  height: 100%;
+  text-shadow: 2px 2px black;
+}
+
+.admission{
+  background-image: url("../images/admission.jpg");
+  background-color: rgb(95, 117, 216);
+  background-size: cover;
+  height: 100%;
+  text-shadow: 2px 2px black;
+}
+
+.spam{
+  background-image: url("../images/spam.jpg");
+  background-color: #34576B;
+  background-size: cover;
+  height: 100%;
+  text-shadow: 2px 2px black;
+}
+
+.about{
+  background-image: url("../images/about.jpg");
+  background-color: #B09675;
+  background-size: cover;
+  height: 100%;
+  text-shadow: 2px 2px black;
+}
+
+.feed {
+  background-image: url("../images/feedback.jpg");
+  background-color: dimgrey;
+  background-size: cover;
+  height: 100%;
+  text-shadow: 2px 2px black;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+.slider1{
+  background-image: url("../images/loan.jpg");
+}
